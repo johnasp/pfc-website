@@ -1,0 +1,26 @@
+.navigation {
+  background: $night;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  border-bottom: 3px solid $cornell-red;
+  &__logo {
+   img {
+      position: absolute;
+      width: 8rem;
+      height: auto;
+   }
+  }
+
+  &__menu {
+   display: flex;
+   padding: 2rem;
+   list-style: none;
+      a {
+         color: white;
+         text-transform: uppercase;
+         margin-left: 0.8rem;
+      }
+  }
+
+}

@@ -1,0 +1,88 @@
+/*  CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* SCSS HEX */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p, li, a {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h2, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+}
+
+/**
+ * Hide text while making it readable for screen readers
+ * 1. Needed in WebKit-based browsers because of an implementation bug;
+ *    See: https://code.google.com/p/chromium/issues/detail?id=457146
+ */
+.hide-text {
+  overflow: hidden;
+  padding: 0; /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+/**
+ * Hide element while making it readable for screen readers
+ * Shamelessly borrowed from HTML5Boilerplate:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.navigation {
+  background: #0b090a;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  border-bottom: 3px solid #a4161a;
+}
+.navigation__logo img {
+  position: absolute;
+  width: 8rem;
+  height: auto;
+}
+.navigation__menu {
+  display: flex;
+  padding: 2rem;
+  list-style: none;
+}
+.navigation__menu a {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 0.8rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
