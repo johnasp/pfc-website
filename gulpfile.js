@@ -13,7 +13,8 @@ function buildStyles() {
 }
 
 function watchTask() {
-  watch(['sass/main.scss'], buildStyles);
-}
+   // Use a glob pattern to watch all .scss files in nested folders
+   watch('sass/**/*.scss', buildStyles);
+ }
 
 exports.default = series(buildStyles, watchTask);
