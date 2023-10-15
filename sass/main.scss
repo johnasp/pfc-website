@@ -3,23 +3,15 @@
 @import
   'abstracts/variables',
   'abstracts/functions',
-  'abstracts/breakpoints';
-
-@import
+  'abstracts/breakpoints',
   'base/base',
   'base/palette',
   'base/typography',
-  'base/helpers';
-
-@import
+  'base/helpers',
   'layout/header',
   'layout/sidebar',
   'layout/navigation',
-  'layout/footer';
-
-@import
-  'components/button';
-
-@import
+  'layout/footer',
+  'components/button',
   'pages/home';
 
