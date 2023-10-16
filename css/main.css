@@ -1,5 +1,10 @@
 /*  CSS Reset */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap");
+.logo {
+  width: 100px;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -80,10 +85,5 @@ h1, h2, h2, h4, h5, h6 {
   color: white;
   text-transform: uppercase;
   margin-left: 0.8rem;
-}
-
-.logo {
-  width: 100px;
-  height: auto;
 }
 /*# sourceMappingURL=maps/main.css.map */

@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 
+@use 'pages/home';
+
+
 @import
   'abstracts/variables',
   'abstracts/functions',
@@ -12,6 +15,5 @@
   'layout/sidebar',
   'layout/navigation',
   'layout/footer',
-  'components/button',
-  'pages/home';
+  'components/button';
 
